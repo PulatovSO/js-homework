@@ -11,6 +11,6 @@ let p = (a + b + c) / 2;
 
 let s = Math.sqrt(p * (p - a) * (p - b) * (p - c))
 
-console.log(p * 2) // p
-console.log(s) // s
+console.log((p * 2).toFixed(2)) // p
+console.log(s.toFixed(2)) // s
 
